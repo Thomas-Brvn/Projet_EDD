@@ -1,43 +1,26 @@
-# -*- coding: utf-8 -*-
+#############   NEWS    #################
 
-# Sample Python code for youtube.channels.list
-# See instructions for running these code samples locally:
-# https://developers.google.com/explorer-help/code-samples#python
+import requests
+# Remplace 'YOUR_API_KEY' par ta clé API NewsAPI
+API_KEY = 'cff3a3ac11184449a740a0fc30a70611'
+QUERY = 'apple'  # Le mot-clé de recherche
 
-import os
-#alphonse_thomas
-import google_auth_oauthlib.flow
-import googleapiclient.discovery
-import googleapiclient.errors
+# URL de l'API pour rechercher des articles
+url = f'https://newsapi.org/v2/everything?q={QUERY}&apiKey={API_KEY}'
 
-# API = "AIzaSyAn4Ns9lXH70lsgpg6h2BNb4QJOxInc56s"
+response = requests.get(url)
 
-scopes = ["https://www.googleapis.com/auth/youtube.readonly"]
-
-def main():
-    # Disable OAuthlib's HTTPS verification when running locally.
-    # *DO NOT* leave this option enabled in production.
-    os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1"
-
-    api_service_name = "youtube"
-    api_version = "v3"
-    client_secrets_file = "token.json"
-
-    # Get credentials and create an API client
-    flow = google_auth_oauthlib.flow.InstalledAppFlow.from_client_secrets_file(
-        client_secrets_file, scopes)
-    credentials = flow.run_local_server()
-    youtube = googleapiclient.discovery.build(
-        api_service_name, api_version, credentials=credentials)
-
-    request = youtube.channels().list(
-        part="snippet,contentDetails,statistics",
-        forUsername="GoogleDevelopers",
-        alt="json"
-    )
-    response = request.execute()
-
-    print(response)
-
-if __name__ == "__main__":
-    main()
+# Vérifier si la requête a réussi
+if response.status_code == 200:
+    articles = response.json().get('articles')
+    
+    if articles:
+        for i, article in enumerate(articles):
+            print(f"{i + 1}. {article['title']}")
+            print(f"   Source: {article['source']['name']}")
+            print(f"   URL: {article['url']}")
+            print(f"   Published At: {article['publishedAt']}\n")
+    else:
+        print("Aucun article trouvé.")
+else:
+    print(f"Erreur lors de la requête : {response.status_code}")
