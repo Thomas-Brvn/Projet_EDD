@@ -1,43 +1,78 @@
-# -*- coding: utf-8 -*-
+#############   FINANCE    #################
 
-# Sample Python code for youtube.channels.list
-# See instructions for running these code samples locally:
-# https://developers.google.com/explorer-help/code-samples#python
+import requests
+from datetime import datetime, timedelta
 
-import os
-#alphonse_thomas
-import google_auth_oauthlib.flow
-import googleapiclient.discovery
-import googleapiclient.errors
+# Remplace 'YOUR_API_KEY' par ta clé API Alpha Vantage
+API_KEY = 'MAOLRUZM8WBP605B'
+SYMBOL = 'AAPL'  # Exemple : Apple Inc.
 
-# API = "AIzaSyAn4Ns9lXH70lsgpg6h2BNb4QJOxInc56s"
+# URL de l'API pour récupérer les données quotidiennes de l'action
+url = f'https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol={SYMBOL}&apikey={API_KEY}&outputsize=compact'
 
-scopes = ["https://www.googleapis.com/auth/youtube.readonly"]
+response = requests.get(url)
 
-def main():
-    # Disable OAuthlib's HTTPS verification when running locally.
-    # *DO NOT* leave this option enabled in production.
-    os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1"
+# Vérifier si la requête a réussi
+if response.status_code == 200:
+    data = response.json()
+    time_series = data.get('Time Series (Daily)')
 
-    api_service_name = "youtube"
-    api_version = "v3"
-    client_secrets_file = "token.json"
+    if time_series:
+        # Obtenir la date d'hier et d'avant-hier
+        today = datetime.now().date()
+        yesterday = today - timedelta(days=1)
+        day_before_yesterday = today - timedelta(days=2)
 
-    # Get credentials and create an API client
-    flow = google_auth_oauthlib.flow.InstalledAppFlow.from_client_secrets_file(
-        client_secrets_file, scopes)
-    credentials = flow.run_local_server()
-    youtube = googleapiclient.discovery.build(
-        api_service_name, api_version, credentials=credentials)
+        # Formatage des dates pour correspondre au format de l'API
+        yesterday_str = yesterday.strftime('%Y-%m-%d')
+        day_before_yesterday_str = day_before_yesterday.strftime('%Y-%m-%d')
 
-    request = youtube.channels().list(
-        part="snippet,contentDetails,statistics",
-        forUsername="GoogleDevelopers",
-        alt="json"
-    )
-    response = request.execute()
+        # Récupérer les données des deux derniers jours
+        yesterday_data = time_series.get(yesterday_str)
+        day_before_yesterday_data = time_series.get(day_before_yesterday_str)
 
-    print(response)
+        # Affichage des résultats
+        if yesterday_data:
+            print(f"Prix d'ouverture le {yesterday_str}: {yesterday_data['1. open']} USD")
+            print(f"Prix de fermeture le {yesterday_str}: {yesterday_data['4. close']} USD")
+        else:
+            print(f"Aucune donnée disponible pour le {yesterday_str}.")
 
-if __name__ == "__main__":
-    main()
+        if day_before_yesterday_data:
+            print(f"Prix d'ouverture le {day_before_yesterday_str}: {day_before_yesterday_data['1. open']} USD")
+            print(f"Prix de fermeture le {day_before_yesterday_str}: {day_before_yesterday_data['4. close']} USD")
+        else:
+            print(f"Aucune donnée disponible pour le {day_before_yesterday_str}.")
+    else:
+        print("Aucune donnée disponible pour cette action.")
+else:
+    print(f"Erreur lors de la requête : {response.status_code}")
+    
+    
+    
+    
+#############   NEWS    #################
+
+# Remplace 'YOUR_API_KEY' par ta clé API NewsAPI
+API_KEY = 'cff3a3ac11184449a740a0fc30a70611'
+QUERY = 'apple'  # Le mot-clé de recherche
+
+# URL de l'API pour rechercher des articles
+url = f'https://newsapi.org/v2/everything?q={QUERY}&apiKey={API_KEY}'
+
+response = requests.get(url)
+
+# Vérifier si la requête a réussi
+if response.status_code == 200:
+    articles = response.json().get('articles')
+    
+    if articles:
+        for i, article in enumerate(articles):
+            print(f"{i + 1}. {article['title']}")
+            print(f"   Source: {article['source']['name']}")
+            print(f"   URL: {article['url']}")
+            print(f"   Published At: {article['publishedAt']}\n")
+    else:
+        print("Aucun article trouvé.")
+else:
+    print(f"Erreur lors de la requête : {response.status_code}")
