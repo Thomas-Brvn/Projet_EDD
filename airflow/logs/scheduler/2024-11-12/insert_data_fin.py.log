@@ -75,3 +75,52 @@
 [2024-11-12T10:24:07.905+0000] {logging_mixin.py:190} INFO - [2024-11-12T10:24:07.905+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-11-12T10:24:07.935+0000] {logging_mixin.py:190} INFO - [2024-11-12T10:24:07.935+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_update_api to 2024-11-12 06:00:00+00:00, run_after=2024-11-13 06:00:00+00:00
 [2024-11-12T10:24:07.959+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_data_fin.py took 0.123 seconds
+[2024-11-12T10:24:38.402+0000] {processor.py:186} INFO - Started process (PID=13952) to work on /opt/airflow/dags/insert_data_fin.py
+[2024-11-12T10:24:38.404+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_data_fin.py for tasks to queue
+[2024-11-12T10:24:38.405+0000] {logging_mixin.py:190} INFO - [2024-11-12T10:24:38.405+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data_fin.py
+[2024-11-12T10:24:38.427+0000] {processor.py:925} INFO - DAG(s) 'dag_update_api' retrieved from /opt/airflow/dags/insert_data_fin.py
+[2024-11-12T10:24:38.454+0000] {logging_mixin.py:190} INFO - [2024-11-12T10:24:38.453+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T10:24:38.486+0000] {logging_mixin.py:190} INFO - [2024-11-12T10:24:38.486+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_update_api to 2024-11-12 06:00:00+00:00, run_after=2024-11-13 06:00:00+00:00
+[2024-11-12T10:24:38.510+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_data_fin.py took 0.116 seconds
+[2024-11-12T10:25:08.786+0000] {processor.py:186} INFO - Started process (PID=14015) to work on /opt/airflow/dags/insert_data_fin.py
+[2024-11-12T10:25:08.788+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_data_fin.py for tasks to queue
+[2024-11-12T10:25:08.791+0000] {logging_mixin.py:190} INFO - [2024-11-12T10:25:08.790+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data_fin.py
+[2024-11-12T10:25:08.823+0000] {processor.py:925} INFO - DAG(s) 'dag_update_api' retrieved from /opt/airflow/dags/insert_data_fin.py
+[2024-11-12T10:25:08.851+0000] {logging_mixin.py:190} INFO - [2024-11-12T10:25:08.851+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T10:25:08.889+0000] {logging_mixin.py:190} INFO - [2024-11-12T10:25:08.889+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_update_api to 2024-11-12 06:00:00+00:00, run_after=2024-11-13 06:00:00+00:00
+[2024-11-12T10:25:08.916+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_data_fin.py took 0.137 seconds
+[2024-11-12T10:25:39.261+0000] {processor.py:186} INFO - Started process (PID=14078) to work on /opt/airflow/dags/insert_data_fin.py
+[2024-11-12T10:25:39.263+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_data_fin.py for tasks to queue
+[2024-11-12T10:25:39.266+0000] {logging_mixin.py:190} INFO - [2024-11-12T10:25:39.265+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data_fin.py
+[2024-11-12T10:25:39.290+0000] {processor.py:925} INFO - DAG(s) 'dag_update_api' retrieved from /opt/airflow/dags/insert_data_fin.py
+[2024-11-12T10:25:39.324+0000] {logging_mixin.py:190} INFO - [2024-11-12T10:25:39.324+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T10:25:39.369+0000] {logging_mixin.py:190} INFO - [2024-11-12T10:25:39.369+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_update_api to 2024-11-12 06:00:00+00:00, run_after=2024-11-13 06:00:00+00:00
+[2024-11-12T10:25:39.400+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_data_fin.py took 0.152 seconds
+[2024-11-12T10:26:09.536+0000] {processor.py:186} INFO - Started process (PID=14141) to work on /opt/airflow/dags/insert_data_fin.py
+[2024-11-12T10:26:09.537+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_data_fin.py for tasks to queue
+[2024-11-12T10:26:09.540+0000] {logging_mixin.py:190} INFO - [2024-11-12T10:26:09.539+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data_fin.py
+[2024-11-12T10:26:09.574+0000] {processor.py:925} INFO - DAG(s) 'dag_update_api' retrieved from /opt/airflow/dags/insert_data_fin.py
+[2024-11-12T10:26:09.610+0000] {logging_mixin.py:190} INFO - [2024-11-12T10:26:09.610+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T10:26:09.662+0000] {logging_mixin.py:190} INFO - [2024-11-12T10:26:09.662+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_update_api to 2024-11-12 06:00:00+00:00, run_after=2024-11-13 06:00:00+00:00
+[2024-11-12T10:26:09.697+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_data_fin.py took 0.169 seconds
+[2024-11-12T10:26:40.296+0000] {processor.py:186} INFO - Started process (PID=14205) to work on /opt/airflow/dags/insert_data_fin.py
+[2024-11-12T10:26:40.298+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_data_fin.py for tasks to queue
+[2024-11-12T10:26:40.301+0000] {logging_mixin.py:190} INFO - [2024-11-12T10:26:40.301+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data_fin.py
+[2024-11-12T10:26:40.330+0000] {processor.py:925} INFO - DAG(s) 'dag_update_api' retrieved from /opt/airflow/dags/insert_data_fin.py
+[2024-11-12T10:26:40.357+0000] {logging_mixin.py:190} INFO - [2024-11-12T10:26:40.357+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T10:26:40.400+0000] {logging_mixin.py:190} INFO - [2024-11-12T10:26:40.399+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_update_api to 2024-11-12 06:00:00+00:00, run_after=2024-11-13 06:00:00+00:00
+[2024-11-12T10:26:40.430+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_data_fin.py took 0.145 seconds
+[2024-11-12T10:27:11.166+0000] {processor.py:186} INFO - Started process (PID=14268) to work on /opt/airflow/dags/insert_data_fin.py
+[2024-11-12T10:27:11.168+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_data_fin.py for tasks to queue
+[2024-11-12T10:27:11.170+0000] {logging_mixin.py:190} INFO - [2024-11-12T10:27:11.169+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data_fin.py
+[2024-11-12T10:27:11.195+0000] {processor.py:925} INFO - DAG(s) 'dag_update_api' retrieved from /opt/airflow/dags/insert_data_fin.py
+[2024-11-12T10:27:11.223+0000] {logging_mixin.py:190} INFO - [2024-11-12T10:27:11.222+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T10:27:11.271+0000] {logging_mixin.py:190} INFO - [2024-11-12T10:27:11.270+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_update_api to 2024-11-12 06:00:00+00:00, run_after=2024-11-13 06:00:00+00:00
+[2024-11-12T10:27:11.309+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_data_fin.py took 0.151 seconds
+[2024-11-12T10:27:41.512+0000] {processor.py:186} INFO - Started process (PID=14331) to work on /opt/airflow/dags/insert_data_fin.py
+[2024-11-12T10:27:41.514+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_data_fin.py for tasks to queue
+[2024-11-12T10:27:41.516+0000] {logging_mixin.py:190} INFO - [2024-11-12T10:27:41.515+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data_fin.py
+[2024-11-12T10:27:41.537+0000] {processor.py:925} INFO - DAG(s) 'dag_update_api' retrieved from /opt/airflow/dags/insert_data_fin.py
+[2024-11-12T10:27:41.561+0000] {logging_mixin.py:190} INFO - [2024-11-12T10:27:41.561+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-12T10:27:41.592+0000] {logging_mixin.py:190} INFO - [2024-11-12T10:27:41.592+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_update_api to 2024-11-12 06:00:00+00:00, run_after=2024-11-13 06:00:00+00:00
+[2024-11-12T10:27:41.616+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_data_fin.py took 0.114 seconds
