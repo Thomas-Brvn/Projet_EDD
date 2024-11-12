@@ -153,13 +153,27 @@ class MongoDBPipeline:
     def insert_data_to_mongodb(self, data):
         try:
             if data:
-                # Insérer les données dans MongoDB
-                result = self.collection.insert_many(data)
-                print(f"{len(result.inserted_ids)} documents insérés dans MongoDB.")
+                # Get the last date from the existing data
+                last_date = self.collection.find_one(sort=[("publishedAt", -1)])
+                if last_date:
+                    last_date = last_date["publishedAt"]
+                else:
+                    last_date = None
+
+                # Filter the data to include only those with a "publishedAt" date greater than the last date
+                filtered_data = [item for item in data if item["publishedAt"] > last_date]
+
+                # Insert the filtered data into MongoDB
+                if filtered_data:
+                    result = self.collection.insert_many(filtered_data)
+                    print(f"{len(result.inserted_ids)} documents insérés dans MongoDB.")
+                else:
+                    print("Aucune nouvelle donnée à insérer.")
             else:
                 print("Aucune donnée à insérer.")
         except Exception as e:
             print(f"Erreur lors de l'insertion des données dans MongoDB : {e}")
+
 
     def close_connection(self):
         # Fermer la connexion MongoDB
