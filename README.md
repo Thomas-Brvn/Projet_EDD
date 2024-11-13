@@ -123,6 +123,7 @@ Ce projet est sous licence MIT.
 
 ### Contributeurs
 Alphonse Marçay : (@amarcay) - Etudiant Data  -**alphonsemarcay@gmail.com**
+
 Thomas Bourvon  : (@aThomasBrvn) - Etudiant Data  -**thomas.bourvon0@gmail.com**
 
 
