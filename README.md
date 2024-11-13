@@ -41,6 +41,13 @@ Ce projet est destiné à :
 
 ## 🔀 Workflow et Schéma d'Architecture 
 
+
+
+[Uploading schéma projet EDD.pptx…]()
+
+
+
+
 1. **Extraction des Données Financières**  
    Connexion et extraction des données financières (prix des actions, valorisation) via une API de marché boursier.
 
