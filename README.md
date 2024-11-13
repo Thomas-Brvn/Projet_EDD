@@ -13,7 +13,7 @@ Ce projet est destiné à :
 - **Développeurs d'Applications Financières** souhaitant enrichir leurs applications avec des données de marché et d'actualités en temps réel.
 - **Chercheurs en Finance** désirant étudier les corrélations entre l’actualité économique et les fluctuations des cours de bourse.
 
-## Architecture du Projet 
+## 🗺️ Architecture du Projet 
 
 .
 ├── data
@@ -38,7 +38,7 @@ Ce projet est destiné à :
 
 
 
-## Workflow et Schéma d'Architecture
+## 🔀 Workflow et Schéma d'Architecture 
 
 1. **Extraction des Données Financières**  
    Connexion et extraction des données financières (prix des actions, valorisation) via une API de marché boursier.
@@ -58,7 +58,7 @@ Ce projet est destiné à :
 6. **Visualisation et Analyse**  
    Création de visualisations à partir de l'entrepôt de données pour explorer les corrélations entre actualité et performance boursière.
 
-## Technologies Utilisées
+## ⚙️ Technologies Utilisées
 
 ### Langage et Développement
 
@@ -79,7 +79,7 @@ Ce projet est destiné à :
 - ![Pandas](https://img.shields.io/badge/Pandas-1.5.3-green?logo=pandas&logoColor=white)
 - ![Requests](https://img.shields.io/badge/Requests-2.28.1-brightgreen?logo=python&logoColor=white)
 
-## Déroulement Technique du Projet
+## 🚀 Déroulement Technique du Projet
 
 ### Étapes d'Installation :
 
@@ -103,7 +103,7 @@ Ce projet est destiné à :
    pip install -r requirements.txt
    ```
 
-   ## Pipeline de Transformation des Données
+   ## ⛓️ Pipeline de Transformation des Données
 
 Le pipeline suit une série d'étapes automatisées pour extraire, nettoyer, et transformer les données financières et d'actualités, orchestrées via Airflow. Docker Compose est utilisé pour assurer la conteneurisation des services et leur gestion simplifiée.
 
@@ -121,7 +121,7 @@ Ce projet permet de visualiser et d'exploiter les données financières et d'act
 ### License 
 Ce projet est sous licence MIT.
 
-### Contributeurs
+### 🙌 Contributeurs
 Alphonse Marçay : (@amarcay) - Etudiant Data  -**alphonsemarcay@gmail.com**
 
 Thomas Bourvon  : (@aThomasBrvn) - Etudiant Data  -**thomas.bourvon0@gmail.com**
