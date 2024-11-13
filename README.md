@@ -91,8 +91,8 @@ Ce projet est destiné à :
 
 1. **Cloner le dépôt :**
    ```bash
-   git clone https://github.com/votre_nom/votre_projet.git
-   cd votre_projet
+   git clone https://github.com/Thomas-Brvn/Projet_EDD.git
+   cd Projet_EDD
    ```
 2. **Créer un environnement virtuel et installer les dépendances : :**
    ```bash
