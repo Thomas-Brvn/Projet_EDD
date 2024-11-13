@@ -14,7 +14,7 @@ Ce projet est destiné à :
 - **Chercheurs en Finance** désirant étudier les corrélations entre l’actualité économique et les fluctuations des cours de bourse.
 
 ## 🗺️ Architecture du Projet 
-
+```bash 
 .
 ├── data
 │   ├── raw_data
@@ -34,6 +34,7 @@ Ce projet est destiné à :
 │   └── exploratory_analysis.ipynb
 ├── README.md
 └── requirements.txt
+```
 
 
 
