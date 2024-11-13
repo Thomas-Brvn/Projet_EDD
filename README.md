@@ -42,9 +42,7 @@ Ce projet est destiné à :
 ## 🔀 Workflow et Schéma d'Architecture 
 
 
-
-[Uploading schéma projet EDD.pptx…]()
-
+![Capture d’écran 2024-11-13 à 19 00 30](https://github.com/user-attachments/assets/3092234e-760f-4469-9cfd-fccaf05bf223)
 
 
 
