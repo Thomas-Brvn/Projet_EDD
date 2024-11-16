@@ -2,6 +2,9 @@ import requests
 from dotenv import load_dotenv
 import os
 from pymongo import MongoClient
+import sys
+sys.stdout.reconfigure(encoding='utf-8')
+
 
 # Récupérer l'API_KEY et le QUERY depuis les variables d'environnement
 api_key = os.getenv('API_KEY_news')

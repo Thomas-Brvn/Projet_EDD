@@ -1,0 +1,135 @@
+[2024-11-16T11:27:03.251+0000] {processor.py:186} INFO - Started process (PID=24219) to work on /opt/airflow/dags/insert_data.py
+[2024-11-16T11:27:03.253+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2024-11-16T11:27:03.259+0000] {logging_mixin.py:190} INFO - [2024-11-16T11:27:03.257+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2024-11-16T11:27:03.302+0000] {logging_mixin.py:190} INFO - [2024-11-16T11:27:03.283+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 6, in <module>
+    sys.stdout.reconfigure(encoding='utf-8')
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'StreamLogWriter' object has no attribute 'reconfigure'
+[2024-11-16T11:27:03.316+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2024-11-16T11:27:03.365+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_data.py took 0.132 seconds
+[2024-11-16T11:27:59.162+0000] {processor.py:186} INFO - Started process (PID=24274) to work on /opt/airflow/dags/insert_data.py
+[2024-11-16T11:27:59.167+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2024-11-16T11:27:59.194+0000] {logging_mixin.py:190} INFO - [2024-11-16T11:27:59.188+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2024-11-16T11:27:59.475+0000] {logging_mixin.py:190} INFO - [2024-11-16T11:27:59.360+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 6, in <module>
+    sys.stdout.reconfigure(encoding='utf-8')
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'StreamLogWriter' object has no attribute 'reconfigure'
+[2024-11-16T11:27:59.499+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2024-11-16T11:27:59.955+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_data.py took 0.832 seconds
+[2024-11-16T11:29:04.032+0000] {processor.py:186} INFO - Started process (PID=24330) to work on /opt/airflow/dags/insert_data.py
+[2024-11-16T11:29:04.037+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2024-11-16T11:29:04.043+0000] {logging_mixin.py:190} INFO - [2024-11-16T11:29:04.042+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2024-11-16T11:29:04.234+0000] {logging_mixin.py:190} INFO - [2024-11-16T11:29:04.139+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 6, in <module>
+    sys.stdout.reconfigure(encoding='utf-8')
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'StreamLogWriter' object has no attribute 'reconfigure'
+[2024-11-16T11:29:04.259+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2024-11-16T11:29:04.479+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_data.py took 0.490 seconds
+[2024-11-16T11:29:36.569+0000] {processor.py:186} INFO - Started process (PID=24393) to work on /opt/airflow/dags/insert_data.py
+[2024-11-16T11:29:36.586+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2024-11-16T11:29:36.592+0000] {logging_mixin.py:190} INFO - [2024-11-16T11:29:36.591+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2024-11-16T11:29:37.048+0000] {logging_mixin.py:190} INFO - [2024-11-16T11:29:36.953+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 6, in <module>
+    sys.stdout.reconfigure(encoding='utf-8')
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'StreamLogWriter' object has no attribute 'reconfigure'
+[2024-11-16T11:29:37.053+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2024-11-16T11:29:37.464+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_data.py took 0.905 seconds
+[2024-11-16T11:30:07.907+0000] {processor.py:186} INFO - Started process (PID=24456) to work on /opt/airflow/dags/insert_data.py
+[2024-11-16T11:30:07.908+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2024-11-16T11:30:07.910+0000] {logging_mixin.py:190} INFO - [2024-11-16T11:30:07.910+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2024-11-16T11:30:07.939+0000] {logging_mixin.py:190} INFO - [2024-11-16T11:30:07.930+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 6, in <module>
+    sys.stdout.reconfigure(encoding='utf-8')
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'StreamLogWriter' object has no attribute 'reconfigure'
+[2024-11-16T11:30:07.942+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2024-11-16T11:30:07.975+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_data.py took 0.077 seconds
+[2024-11-16T11:30:38.402+0000] {processor.py:186} INFO - Started process (PID=24519) to work on /opt/airflow/dags/insert_data.py
+[2024-11-16T11:30:38.404+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2024-11-16T11:30:38.407+0000] {logging_mixin.py:190} INFO - [2024-11-16T11:30:38.406+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2024-11-16T11:30:38.442+0000] {logging_mixin.py:190} INFO - [2024-11-16T11:30:38.429+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 6, in <module>
+    sys.stdout.reconfigure(encoding='utf-8')
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'StreamLogWriter' object has no attribute 'reconfigure'
+[2024-11-16T11:30:38.447+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2024-11-16T11:30:38.475+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_data.py took 0.083 seconds
+[2024-11-16T11:31:09.398+0000] {processor.py:186} INFO - Started process (PID=24573) to work on /opt/airflow/dags/insert_data.py
+[2024-11-16T11:31:09.400+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2024-11-16T11:31:09.402+0000] {logging_mixin.py:190} INFO - [2024-11-16T11:31:09.401+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2024-11-16T11:31:09.428+0000] {logging_mixin.py:190} INFO - [2024-11-16T11:31:09.417+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 6, in <module>
+    sys.stdout.reconfigure(encoding='utf-8')
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'StreamLogWriter' object has no attribute 'reconfigure'
+[2024-11-16T11:31:09.432+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2024-11-16T11:31:09.486+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_data.py took 0.097 seconds
+[2024-11-16T11:31:50.415+0000] {processor.py:186} INFO - Started process (PID=24617) to work on /opt/airflow/dags/insert_data.py
+[2024-11-16T11:31:50.420+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2024-11-16T11:31:50.426+0000] {logging_mixin.py:190} INFO - [2024-11-16T11:31:50.425+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2024-11-16T11:31:50.481+0000] {logging_mixin.py:190} INFO - [2024-11-16T11:31:50.457+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 6, in <module>
+    sys.stdout.reconfigure(encoding='utf-8')
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'StreamLogWriter' object has no attribute 'reconfigure'
+[2024-11-16T11:31:50.488+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2024-11-16T11:31:50.538+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_data.py took 0.143 seconds
+[2024-11-16T11:32:20.900+0000] {processor.py:186} INFO - Started process (PID=24677) to work on /opt/airflow/dags/insert_data.py
+[2024-11-16T11:32:20.903+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/insert_data.py for tasks to queue
+[2024-11-16T11:32:20.906+0000] {logging_mixin.py:190} INFO - [2024-11-16T11:32:20.905+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/insert_data.py
+[2024-11-16T11:32:20.957+0000] {logging_mixin.py:190} INFO - [2024-11-16T11:32:20.937+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/insert_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/insert_data.py", line 6, in <module>
+    sys.stdout.reconfigure(encoding='utf-8')
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'StreamLogWriter' object has no attribute 'reconfigure'
+[2024-11-16T11:32:20.963+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/insert_data.py
+[2024-11-16T11:32:21.040+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/insert_data.py took 0.162 seconds

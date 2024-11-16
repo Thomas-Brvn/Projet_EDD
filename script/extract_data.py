@@ -39,6 +39,14 @@ df_news['query_count_titre'] = df_news['title'].str.count(query_news)
 df_news['content'] = df_news['content'].str.lower()
 df_news['query_count_content'] = df_news['content'].str.count(query_news)
 
+# Convert the date columns to datetime objects
+df_fin['date'] = pd.to_datetime(df_fin['date'])
+df_news['publishedAt'] = pd.to_datetime(df_news['publishedAt'])
+ 
+# Format the date columns to a consistent format (e.g., 'YYYY-MM-DD')
+df_fin['date'] = df_fin['date'].dt.strftime('%Y-%m-%d')
+df_news['publishedAt'] = df_news['publishedAt'].dt.strftime('%Y-%m-%d')
+
 # Display the DataFrames
 print("DataFrame df_fin:")
 print(df_fin)

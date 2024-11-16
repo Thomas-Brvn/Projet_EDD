@@ -1,0 +1,22 @@
+[2024-11-12T15:26:19.778+0000] {processor.py:186} INFO - Started process (PID=73) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dataset_alias.py
+[2024-11-12T15:26:19.793+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dataset_alias.py for tasks to queue
+[2024-11-12T15:26:19.807+0000] {logging_mixin.py:190} INFO - [2024-11-12T15:26:19.806+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dataset_alias.py
+[2024-11-12T15:26:22.259+0000] {processor.py:925} INFO - DAG(s) 'dataset_alias_example_alias_consumer', 'dataset_s3_bucket_producer', 'dataset_s3_bucket_consumer', 'dataset_alias_example_alias_producer' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dataset_alias.py
+[2024-11-12T15:26:23.277+0000] {logging_mixin.py:190} INFO - [2024-11-12T15:26:23.265+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:dataset_alias_example_alias_consumer
+[2024-11-12T15:26:23.340+0000] {logging_mixin.py:190} INFO - [2024-11-12T15:26:23.339+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:dataset_alias_example_alias_consumer
+[2024-11-12T15:26:23.375+0000] {logging_mixin.py:190} INFO - [2024-11-12T15:26:23.374+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:dataset_alias_example_alias_consumer
+[2024-11-12T15:26:23.409+0000] {logging_mixin.py:190} INFO - [2024-11-12T15:26:23.408+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:dataset_alias_example_alias_consumer
+[2024-11-12T15:26:23.452+0000] {logging_mixin.py:190} INFO - [2024-11-12T15:26:23.451+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:dataset_alias_example_alias_consumer
+[2024-11-12T15:26:23.477+0000] {logging_mixin.py:190} INFO - [2024-11-12T15:26:23.476+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:dataset_alias_example_alias_consumer
+[2024-11-12T15:26:23.534+0000] {logging_mixin.py:190} INFO - [2024-11-12T15:26:23.529+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:dataset_alias_example_alias_consumer
+[2024-11-12T15:26:23.677+0000] {logging_mixin.py:190} INFO - [2024-11-12T15:26:23.676+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:dataset_s3_bucket_producer
+[2024-11-12T15:26:23.739+0000] {logging_mixin.py:190} INFO - [2024-11-12T15:26:23.732+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:dataset_s3_bucket_producer
+[2024-11-12T15:26:23.786+0000] {logging_mixin.py:190} INFO - [2024-11-12T15:26:23.784+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:dataset_s3_bucket_producer
+[2024-11-12T15:26:23.827+0000] {logging_mixin.py:190} INFO - [2024-11-12T15:26:23.823+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:dataset_s3_bucket_producer
+[2024-11-12T15:26:23.867+0000] {logging_mixin.py:190} INFO - [2024-11-12T15:26:23.867+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:dataset_s3_bucket_producer
+[2024-11-12T15:26:23.897+0000] {logging_mixin.py:190} INFO - [2024-11-12T15:26:23.896+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:dataset_s3_bucket_producer
+[2024-11-12T15:26:23.933+0000] {logging_mixin.py:190} INFO - [2024-11-12T15:26:23.932+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:dataset_s3_bucket_producer
+[2024-11-12T15:26:24.168+0000] {logging_mixin.py:190} INFO - [2024-11-12T15:26:24.135+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:dataset_s3_bucket_consumer
+[2024-11-12T15:26:24.245+0000] {logging_mixin.py:190} INFO - [2024-11-12T15:26:24.228+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:dataset_s3_bucket_consumer
+[2024-11-12T15:26:24.398+0000] {logging_mixin.py:190} INFO - [2024-11-12T15:26:24.383+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:dataset_s3_bucket_consumer
+[2024-11-12T15:26:25.221+0000] {logging_mixin.py:190} INFO - [2024-11-12T15:26:25.176+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:dataset_s3_bucket_consumer
