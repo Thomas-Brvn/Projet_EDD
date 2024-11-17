@@ -1,9 +1,7 @@
 from airflow import DAG
-from airflow.operators.python_operator import PythonOperator
+from airflow.operators.python import PythonOperator
 from datetime import datetime, timedelta
 import subprocess
-import sys
-sys.stdout.reconfigure(encoding='utf-8')
 
 # Définir les arguments par défaut du DAG
 default_args = {
@@ -18,22 +16,20 @@ default_args = {
 dag = DAG(
     'add_data_API',
     default_args=default_args,
-    description='Envoi des avis clients dans Kafka toutes les 8 heures',
-    schedule_interval='0 */6 * * *',  # Exécution toutes les 8 heures
+    description='Envoi des données news et finance dans MongoDB toutes les 6 heures',
+    schedule_interval='0 */6 * * *',  # Exécution toutes les 6 heures
 )
 
 # Fonction pour exécuter le script sentiment_analysis.py
 def run_API_news():
     try:
-        
-        subprocess.run(['python3', 'C:/Users/33672/OneDrive/Documents/GitHub/Projet_EDD/script/getAPI.py'], check=True)
+        subprocess.run(['python', 'C:/Users/33672/OneDrive/Documents/GitHub/Projet_EDD/script/getAPI.py'], check=True)
     except subprocess.CalledProcessError as e:
         print(f"Erreur lors de l'exécution du script : {e}")
 
 def run_API_fin():
     try:
-        
-        subprocess.run(['python3', 'C:/Users/33672/OneDrive/Documents/GitHub/Projet_EDD/script/getAPI_fin.py'], check=True)
+        subprocess.run(['python', 'C:/Users/33672/OneDrive/Documents/GitHub/Projet_EDD/script/getAPI_fin.py'], check=True)
     except subprocess.CalledProcessError as e:
         print(f"Erreur lors de l'exécution du script : {e}")
 

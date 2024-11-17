@@ -9,7 +9,6 @@ load_dotenv()
 # Get MongoDB URI, database name, and collection name from environment variables
 mongodb_uri = os.getenv('MONGO_URI')
 dbname = os.getenv('MONGO_DBNAME')
-query_news = os.getenv('QUERY_news')
 
 # Connect to MongoDB
 client = MongoClient(mongodb_uri)
@@ -33,12 +32,6 @@ df_news = pd.DataFrame(data_news)
 df_news[['id_source', 'name_source']] = df_news['source'].apply(lambda x: pd.Series([x['id'], x['name']]))
 df_news.drop('source', axis=1, inplace=True)
 
-df_news['title'] = df_news['title'].str.lower()
-df_news['query_count_titre'] = df_news['title'].str.count(query_news)
-
-df_news['content'] = df_news['content'].str.lower()
-df_news['query_count_content'] = df_news['content'].str.count(query_news)
-
 # Convert the date columns to datetime objects
 df_fin['date'] = pd.to_datetime(df_fin['date'])
 df_news['publishedAt'] = pd.to_datetime(df_news['publishedAt'])
@@ -47,8 +40,8 @@ df_news['publishedAt'] = pd.to_datetime(df_news['publishedAt'])
 df_fin['date'] = df_fin['date'].dt.strftime('%Y-%m-%d')
 df_news['publishedAt'] = df_news['publishedAt'].dt.strftime('%Y-%m-%d')
 
-# Display the DataFrames
-print("DataFrame df_fin:")
-print(df_fin)
-print("\nDataFrame df_news:")
-print(df_news)
+# Export DataFrames to CSV files in the specified directory
+base_dir = os.path.dirname(os.path.abspath(__file__))
+output_dir = os.path.join(base_dir, '..', 'data')
+df_fin.to_csv(os.path.join(output_dir, 'data_finance.csv'), index=False, encoding='utf-8')
+df_news.to_csv(os.path.join(output_dir, 'data_news.csv'), index=False, encoding='utf-8')
