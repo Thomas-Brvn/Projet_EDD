@@ -1,0 +1,533 @@
+[2024-11-19T08:42:58.726+0000] {processor.py:186} INFO - Started process (PID=2512) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T08:42:58.727+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T08:42:58.729+0000] {logging_mixin.py:190} INFO - [2024-11-19T08:42:58.729+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T08:42:58.816+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T08:42:59.122+0000] {logging_mixin.py:190} INFO - [2024-11-19T08:42:59.121+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:export_data_to_csv
+[2024-11-19T08:42:59.133+0000] {logging_mixin.py:190} INFO - [2024-11-19T08:42:59.133+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:export_data_to_csv
+[2024-11-19T08:42:59.144+0000] {logging_mixin.py:190} INFO - [2024-11-19T08:42:59.144+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:export_data_to_csv
+[2024-11-19T08:42:59.156+0000] {logging_mixin.py:190} INFO - [2024-11-19T08:42:59.156+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:export_data_to_csv
+[2024-11-19T08:42:59.163+0000] {logging_mixin.py:190} INFO - [2024-11-19T08:42:59.163+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:export_data_to_csv
+[2024-11-19T08:42:59.170+0000] {logging_mixin.py:190} INFO - [2024-11-19T08:42:59.170+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:export_data_to_csv
+[2024-11-19T08:42:59.178+0000] {logging_mixin.py:190} INFO - [2024-11-19T08:42:59.178+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:export_data_to_csv
+[2024-11-19T08:42:59.179+0000] {logging_mixin.py:190} INFO - [2024-11-19T08:42:59.179+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T08:42:59.191+0000] {logging_mixin.py:190} INFO - [2024-11-19T08:42:59.191+0000] {dag.py:3262} INFO - Creating ORM DAG for export_data_to_csv
+[2024-11-19T08:42:59.200+0000] {logging_mixin.py:190} INFO - [2024-11-19T08:42:59.200+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-01 06:00:00+00:00, run_after=2024-11-02 06:00:00+00:00
+[2024-11-19T08:42:59.218+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 0.499 seconds
+[2024-11-19T08:43:29.302+0000] {processor.py:186} INFO - Started process (PID=2578) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T08:43:29.303+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T08:43:29.305+0000] {logging_mixin.py:190} INFO - [2024-11-19T08:43:29.305+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T08:43:29.385+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T08:43:29.405+0000] {logging_mixin.py:190} INFO - [2024-11-19T08:43:29.404+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T08:43:29.569+0000] {logging_mixin.py:190} INFO - [2024-11-19T08:43:29.569+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-01 06:00:00+00:00, run_after=2024-11-02 06:00:00+00:00
+[2024-11-19T08:43:29.593+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 0.297 seconds
+[2024-11-19T08:46:22.553+0000] {processor.py:186} INFO - Started process (PID=72) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T08:46:22.555+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T08:46:22.567+0000] {logging_mixin.py:190} INFO - [2024-11-19T08:46:22.565+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T08:46:24.535+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T08:46:25.105+0000] {logging_mixin.py:190} INFO - [2024-11-19T08:46:25.105+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T08:46:25.296+0000] {logging_mixin.py:190} INFO - [2024-11-19T08:46:25.295+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-01 06:00:00+00:00, run_after=2024-11-02 06:00:00+00:00
+[2024-11-19T08:46:25.403+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 2.873 seconds
+[2024-11-19T08:46:56.412+0000] {processor.py:186} INFO - Started process (PID=138) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T08:46:56.413+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T08:46:56.417+0000] {logging_mixin.py:190} INFO - [2024-11-19T08:46:56.416+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T08:46:56.668+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T08:46:56.710+0000] {logging_mixin.py:190} INFO - [2024-11-19T08:46:56.709+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T08:46:56.792+0000] {logging_mixin.py:190} INFO - [2024-11-19T08:46:56.791+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-01 06:00:00+00:00, run_after=2024-11-02 06:00:00+00:00
+[2024-11-19T08:46:56.990+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 0.584 seconds
+[2024-11-19T08:47:27.261+0000] {processor.py:186} INFO - Started process (PID=204) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T08:47:27.263+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T08:47:27.267+0000] {logging_mixin.py:190} INFO - [2024-11-19T08:47:27.266+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T08:47:27.363+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T08:47:27.388+0000] {logging_mixin.py:190} INFO - [2024-11-19T08:47:27.388+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T08:47:27.413+0000] {logging_mixin.py:190} INFO - [2024-11-19T08:47:27.413+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-01 06:00:00+00:00, run_after=2024-11-02 06:00:00+00:00
+[2024-11-19T08:47:27.447+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 0.193 seconds
+[2024-11-19T08:47:57.679+0000] {processor.py:186} INFO - Started process (PID=271) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T08:47:57.681+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T08:47:57.686+0000] {logging_mixin.py:190} INFO - [2024-11-19T08:47:57.686+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T08:47:57.842+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T08:47:57.906+0000] {logging_mixin.py:190} INFO - [2024-11-19T08:47:57.905+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T08:47:57.984+0000] {logging_mixin.py:190} INFO - [2024-11-19T08:47:57.984+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-01 06:00:00+00:00, run_after=2024-11-02 06:00:00+00:00
+[2024-11-19T08:47:58.036+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 0.369 seconds
+[2024-11-19T08:48:28.235+0000] {processor.py:186} INFO - Started process (PID=337) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T08:48:28.241+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T08:48:28.248+0000] {logging_mixin.py:190} INFO - [2024-11-19T08:48:28.247+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T08:48:28.352+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T08:48:28.383+0000] {logging_mixin.py:190} INFO - [2024-11-19T08:48:28.382+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T08:48:28.414+0000] {logging_mixin.py:190} INFO - [2024-11-19T08:48:28.414+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-01 06:00:00+00:00, run_after=2024-11-02 06:00:00+00:00
+[2024-11-19T08:48:28.462+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 0.241 seconds
+[2024-11-19T08:49:00.253+0000] {processor.py:186} INFO - Started process (PID=403) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T08:49:00.466+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T08:49:00.473+0000] {logging_mixin.py:190} INFO - [2024-11-19T08:49:00.472+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T08:49:03.687+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T08:49:03.717+0000] {logging_mixin.py:190} INFO - [2024-11-19T08:49:03.717+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T08:49:10.137+0000] {logging_mixin.py:190} INFO - [2024-11-19T08:49:10.136+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-01 06:00:00+00:00, run_after=2024-11-02 06:00:00+00:00
+[2024-11-19T08:49:14.684+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 13.050 seconds
+[2024-11-19T09:18:25.703+0000] {processor.py:186} INFO - Started process (PID=89) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T09:18:26.039+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T09:18:26.943+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:18:26.773+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:18:32.140+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:18:32.558+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:18:32.557+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T09:18:32.746+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:18:32.746+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-09 06:00:00+00:00, run_after=2024-11-10 06:00:00+00:00
+[2024-11-19T09:18:32.998+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 7.848 seconds
+[2024-11-19T09:19:54.173+0000] {processor.py:186} INFO - Started process (PID=212) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T09:19:54.197+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T09:19:54.218+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:19:54.215+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:20:03.180+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:20:03.864+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:20:03.864+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T09:20:04.676+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:20:04.675+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T09:20:08.032+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 13.928 seconds
+[2024-11-19T09:20:57.398+0000] {processor.py:186} INFO - Started process (PID=283) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T09:20:57.416+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T09:20:57.422+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:20:57.421+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:20:58.129+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:20:58.221+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:20:58.220+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T09:20:58.368+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:20:58.367+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T09:20:58.464+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 1.083 seconds
+[2024-11-19T09:21:40.586+0000] {processor.py:186} INFO - Started process (PID=324) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T09:21:40.598+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T09:21:40.633+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:21:40.632+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:21:42.553+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:21:43.412+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:21:43.405+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T09:21:43.882+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:21:43.876+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T09:21:44.192+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 3.735 seconds
+[2024-11-19T09:22:14.355+0000] {processor.py:186} INFO - Started process (PID=390) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T09:22:14.400+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T09:22:14.423+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:22:14.423+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:22:14.792+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:22:14.861+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:22:14.861+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T09:22:14.969+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:22:14.968+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T09:22:15.023+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 0.677 seconds
+[2024-11-19T09:22:46.908+0000] {processor.py:186} INFO - Started process (PID=450) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T09:22:46.923+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T09:22:46.941+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:22:46.941+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:22:48.301+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:22:48.532+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:22:48.531+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T09:22:48.804+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:22:48.804+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T09:22:49.061+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 2.235 seconds
+[2024-11-19T09:23:30.592+0000] {processor.py:186} INFO - Started process (PID=513) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T09:23:30.595+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T09:23:30.608+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:23:30.607+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:23:31.065+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:23:31.161+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:23:31.160+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T09:23:31.266+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:23:31.265+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T09:23:31.453+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 0.887 seconds
+[2024-11-19T09:24:21.963+0000] {processor.py:186} INFO - Started process (PID=583) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T09:24:21.978+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T09:24:21.996+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:24:21.995+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:24:25.897+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:24:26.294+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:24:26.293+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T09:24:27.162+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:24:27.162+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T09:24:27.639+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 5.932 seconds
+[2024-11-19T09:31:32.920+0000] {processor.py:186} INFO - Started process (PID=58) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T09:31:32.935+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T09:31:33.002+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:31:32.999+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:31:38.374+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:31:43.005+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:31:43.001+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T09:31:43.309+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:31:43.308+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T09:31:43.593+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 9.339 seconds
+[2024-11-19T09:31:49.144+0000] {processor.py:186} INFO - Started process (PID=76) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T09:31:49.155+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T09:31:49.167+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:31:49.166+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:31:51.112+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:31:52.204+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:31:52.203+0000] {taskinstance.py:3313} ERROR - {'DAG Id': 'export_data_to_csv', 'Task Id': 'export_data_to_csv', 'Run Id': 'scheduled__2024-11-03T06:00:00+00:00', 'Hostname': 'e6bda0a190de', 'External Executor Id': '1b21dc39-49d8-40ac-8ef4-45457910ae41'}
+[2024-11-19T09:31:52.985+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-11-19T09:31:52.997+0000] {logging_mixin.py:190} INFO - Task start:2024-11-19 09:28:06.936523+00:00 end:2024-11-19 09:31:52.518389+00:00 duration:225.581866
+[2024-11-19T09:31:53.024+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): export_data_to_csv> dag:<DAG: export_data_to_csv> dagrun:<DagRun export_data_to_csv @ 2024-11-03 06:00:00+00:00: scheduled__2024-11-03T06:00:00+00:00, state:running, queued_at: 2024-11-19 08:49:28.920730+00:00. externally triggered: False>
+[2024-11-19T09:31:53.037+0000] {logging_mixin.py:190} INFO - Failure caused by {'DAG Id': 'export_data_to_csv', 'Task Id': 'export_data_to_csv', 'Run Id': 'scheduled__2024-11-03T06:00:00+00:00', 'Hostname': 'e6bda0a190de', 'External Executor Id': '1b21dc39-49d8-40ac-8ef4-45457910ae41'}
+[2024-11-19T09:31:53.054+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:31:53.053+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=export_data_to_csv, task_id=export_data_to_csv, run_id=scheduled__2024-11-03T06:00:00+00:00, execution_date=20241103T060000, start_date=20241119T092806, end_date=20241119T093152
+[2024-11-19T09:31:53.195+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:31:53.194+0000] {processor.py:876} INFO - Executed callback for <TaskInstance: export_data_to_csv.export_data_to_csv scheduled__2024-11-03T06:00:00+00:00 [failed]> in state failed
+[2024-11-19T09:31:53.209+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:31:53.209+0000] {taskinstance.py:3313} ERROR - {'DAG Id': 'export_data_to_csv', 'Task Id': 'export_data_to_csv', 'Run Id': 'scheduled__2024-11-13T06:00:00+00:00', 'Hostname': 'e6bda0a190de', 'External Executor Id': 'fe614c82-09dd-44f2-94d2-753470a3af5d'}
+[2024-11-19T09:31:53.241+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-11-19T09:31:53.243+0000] {logging_mixin.py:190} INFO - Task start:2024-11-19 09:28:04.102891+00:00 end:2024-11-19 09:31:53.226828+00:00 duration:229.123937
+[2024-11-19T09:31:53.248+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): export_data_to_csv> dag:<DAG: export_data_to_csv> dagrun:<DagRun export_data_to_csv @ 2024-11-13 06:00:00+00:00: scheduled__2024-11-13T06:00:00+00:00, state:running, queued_at: 2024-11-19 09:19:07.058071+00:00. externally triggered: False>
+[2024-11-19T09:31:53.251+0000] {logging_mixin.py:190} INFO - Failure caused by {'DAG Id': 'export_data_to_csv', 'Task Id': 'export_data_to_csv', 'Run Id': 'scheduled__2024-11-13T06:00:00+00:00', 'Hostname': 'e6bda0a190de', 'External Executor Id': 'fe614c82-09dd-44f2-94d2-753470a3af5d'}
+[2024-11-19T09:31:53.253+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:31:53.253+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=export_data_to_csv, task_id=export_data_to_csv, run_id=scheduled__2024-11-13T06:00:00+00:00, execution_date=20241113T060000, start_date=20241119T092804, end_date=20241119T093153
+[2024-11-19T09:31:53.291+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:31:53.290+0000] {processor.py:876} INFO - Executed callback for <TaskInstance: export_data_to_csv.export_data_to_csv scheduled__2024-11-13T06:00:00+00:00 [failed]> in state failed
+[2024-11-19T09:31:53.363+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:31:53.363+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T09:31:53.452+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:31:53.451+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T09:31:53.561+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 4.456 seconds
+[2024-11-19T09:33:55.090+0000] {processor.py:186} INFO - Started process (PID=169) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T09:33:55.095+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T09:33:55.123+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:33:55.121+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:33:58.115+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:33:58.305+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:33:58.304+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T09:33:58.862+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:33:58.861+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T09:33:59.487+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 4.445 seconds
+[2024-11-19T09:36:03.735+0000] {processor.py:186} INFO - Started process (PID=225) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T09:36:03.762+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T09:36:03.782+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:36:03.781+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:36:10.319+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:36:11.791+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:36:11.790+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T09:36:12.198+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:36:12.197+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T09:36:12.552+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 8.861 seconds
+[2024-11-19T09:37:44.902+0000] {processor.py:186} INFO - Started process (PID=282) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T09:37:44.989+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T09:37:45.327+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:37:45.205+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:38:05.501+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:38:06.941+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:38:06.939+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T09:38:08.923+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:38:08.913+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T09:38:09.192+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 22.840 seconds
+[2024-11-19T09:39:14.415+0000] {processor.py:186} INFO - Started process (PID=349) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T09:39:14.421+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T09:39:14.432+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:39:14.431+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:39:15.561+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:39:15.649+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:39:15.648+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T09:39:15.847+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:39:15.846+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T09:39:15.987+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 1.591 seconds
+[2024-11-19T09:39:50.869+0000] {processor.py:186} INFO - Started process (PID=403) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T09:39:51.071+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T09:39:51.080+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:39:51.079+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:39:51.724+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:39:51.886+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:39:51.886+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T09:39:51.985+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:39:51.985+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T09:39:52.087+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 1.231 seconds
+[2024-11-19T09:40:23.039+0000] {processor.py:186} INFO - Started process (PID=465) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T09:40:23.053+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T09:40:23.057+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:40:23.056+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:40:23.515+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:40:23.639+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:40:23.638+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T09:40:23.867+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:40:23.866+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T09:40:24.013+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 0.999 seconds
+[2024-11-19T09:41:13.839+0000] {processor.py:186} INFO - Started process (PID=528) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T09:41:13.843+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T09:41:13.847+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:41:13.846+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:41:15.663+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:41:15.927+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:41:15.923+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T09:41:16.063+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:41:16.063+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T09:41:16.154+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 2.345 seconds
+[2024-11-19T09:41:46.793+0000] {processor.py:186} INFO - Started process (PID=593) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T09:41:46.813+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T09:41:46.817+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:41:46.816+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:41:49.032+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:41:49.171+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:41:49.170+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T09:41:49.262+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:41:49.261+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T09:41:49.381+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 2.601 seconds
+[2024-11-19T09:42:22.021+0000] {processor.py:186} INFO - Started process (PID=660) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T09:42:22.128+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T09:42:22.141+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:42:22.139+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:42:25.260+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:42:25.344+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:42:25.343+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T09:42:25.486+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:42:25.485+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T09:42:25.596+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 4.395 seconds
+[2024-11-19T09:42:55.938+0000] {processor.py:186} INFO - Started process (PID=726) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T09:42:55.949+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T09:42:55.957+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:42:55.956+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:42:56.699+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:42:56.787+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:42:56.786+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T09:42:56.910+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:42:56.909+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T09:42:57.012+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 1.096 seconds
+[2024-11-19T09:43:27.492+0000] {processor.py:186} INFO - Started process (PID=792) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T09:43:27.497+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T09:43:27.505+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:43:27.504+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:43:27.812+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:43:27.879+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:43:27.879+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T09:43:27.973+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:43:27.973+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T09:43:28.029+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 0.555 seconds
+[2024-11-19T09:43:58.565+0000] {processor.py:186} INFO - Started process (PID=859) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T09:43:58.568+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T09:43:58.577+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:43:58.576+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:43:58.910+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:43:58.980+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:43:58.979+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T09:43:59.104+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:43:59.104+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T09:43:59.176+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 0.637 seconds
+[2024-11-19T09:44:32.232+0000] {processor.py:186} INFO - Started process (PID=915) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T09:44:32.236+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T09:44:32.239+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:44:32.238+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:44:32.735+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:44:32.826+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:44:32.825+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T09:44:32.932+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:44:32.931+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T09:44:32.997+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 0.787 seconds
+[2024-11-19T09:45:03.463+0000] {processor.py:186} INFO - Started process (PID=981) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T09:45:03.504+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T09:45:03.508+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:45:03.507+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:45:03.771+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:45:03.793+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:45:03.793+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T09:45:03.838+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:45:03.838+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T09:45:03.966+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 0.517 seconds
+[2024-11-19T09:45:40.765+0000] {processor.py:186} INFO - Started process (PID=1046) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T09:45:40.879+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T09:45:40.882+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:45:40.882+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:45:41.332+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:45:41.720+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:45:41.719+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T09:45:41.748+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:45:41.748+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T09:45:42.219+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 1.462 seconds
+[2024-11-19T09:46:12.782+0000] {processor.py:186} INFO - Started process (PID=1112) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T09:46:12.787+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T09:46:12.796+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:46:12.796+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:46:13.135+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:46:13.223+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:46:13.220+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T09:46:13.285+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:46:13.285+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T09:46:13.330+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 0.569 seconds
+[2024-11-19T09:46:43.530+0000] {processor.py:186} INFO - Started process (PID=1178) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T09:46:43.537+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T09:46:43.540+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:46:43.540+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:46:43.898+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:46:44.055+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:46:44.054+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T09:46:44.142+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:46:44.142+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T09:46:44.237+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 0.731 seconds
+[2024-11-19T09:47:14.493+0000] {processor.py:186} INFO - Started process (PID=1244) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T09:47:14.495+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T09:47:14.499+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:47:14.498+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:47:14.808+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:47:14.871+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:47:14.870+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T09:47:14.944+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:47:14.943+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T09:47:15.013+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 0.541 seconds
+[2024-11-19T09:47:46.165+0000] {processor.py:186} INFO - Started process (PID=1310) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T09:47:46.176+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T09:47:46.181+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:47:46.180+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:47:47.230+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:47:47.306+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:47:47.306+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T09:47:47.418+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:47:47.415+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T09:47:47.505+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 1.363 seconds
+[2024-11-19T09:48:20.397+0000] {processor.py:186} INFO - Started process (PID=1376) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T09:48:20.400+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T09:48:20.411+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:48:20.410+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:48:22.341+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:48:22.375+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:48:22.374+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T09:48:22.404+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:48:22.403+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T09:48:22.525+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 2.150 seconds
+[2024-11-19T09:48:53.871+0000] {processor.py:186} INFO - Started process (PID=1439) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T09:48:53.882+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T09:48:53.887+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:48:53.886+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:48:54.285+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:48:54.359+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:48:54.358+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T09:48:54.489+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:48:54.486+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T09:48:54.568+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 0.727 seconds
+[2024-11-19T09:49:25.305+0000] {processor.py:186} INFO - Started process (PID=1505) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T09:49:25.327+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T09:49:25.329+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:49:25.329+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:49:25.510+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:49:25.698+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:49:25.697+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T09:49:25.914+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:49:25.913+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T09:49:26.047+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 0.748 seconds
+[2024-11-19T09:49:57.377+0000] {processor.py:186} INFO - Started process (PID=1571) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T09:49:57.382+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T09:49:57.386+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:49:57.385+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:49:57.815+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:49:57.895+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:49:57.894+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T09:49:58.015+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:49:58.015+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T09:49:58.164+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 0.815 seconds
+[2024-11-19T09:50:28.750+0000] {processor.py:186} INFO - Started process (PID=1637) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T09:50:28.755+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T09:50:28.764+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:50:28.763+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:50:29.198+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:50:29.264+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:50:29.264+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T09:50:29.396+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:50:29.396+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T09:50:29.530+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 0.804 seconds
+[2024-11-19T09:51:01.964+0000] {processor.py:186} INFO - Started process (PID=1702) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T09:51:01.966+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T09:51:01.970+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:51:01.968+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:51:02.501+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:51:02.592+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:51:02.592+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T09:51:02.726+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:51:02.725+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T09:51:02.843+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 0.908 seconds
+[2024-11-19T09:51:37.737+0000] {processor.py:186} INFO - Started process (PID=1761) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T09:51:37.742+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T09:51:37.747+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:51:37.746+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:51:38.219+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:51:38.264+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:51:38.263+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T09:51:38.300+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:51:38.299+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T09:51:38.387+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 0.671 seconds
+[2024-11-19T09:52:13.279+0000] {processor.py:186} INFO - Started process (PID=1827) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T09:52:13.282+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T09:52:13.286+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:52:13.285+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:52:13.781+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T09:52:13.863+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:52:13.863+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T09:52:13.951+0000] {logging_mixin.py:190} INFO - [2024-11-19T09:52:13.951+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T09:52:14.040+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 0.777 seconds
+[2024-11-19T10:01:39.358+0000] {processor.py:186} INFO - Started process (PID=1849) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T10:01:39.374+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T10:01:39.381+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:01:39.380+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:01:40.068+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:01:40.218+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:01:40.217+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T10:01:40.413+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:01:40.413+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T10:01:40.789+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 1.452 seconds
+[2024-11-19T10:04:00.582+0000] {processor.py:186} INFO - Started process (PID=1928) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T10:04:00.587+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T10:04:00.591+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:04:00.590+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:04:03.170+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:04:03.298+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:04:03.297+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T10:04:03.464+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:04:03.464+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T10:04:03.543+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 1.506 seconds
+[2024-11-19T10:04:35.860+0000] {processor.py:186} INFO - Started process (PID=1993) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T10:04:35.875+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T10:04:35.904+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:04:35.904+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:04:37.176+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:04:37.309+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:04:37.308+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T10:04:37.475+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:04:37.475+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T10:04:37.573+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 1.739 seconds
+[2024-11-19T10:06:06.816+0000] {processor.py:186} INFO - Started process (PID=2022) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T10:06:06.853+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T10:06:07.009+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:06:06.985+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:06:15.715+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:06:16.173+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:06:16.170+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T10:06:16.723+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:06:16.720+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T10:06:16.911+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 10.718 seconds
+[2024-11-19T10:09:55.400+0000] {processor.py:186} INFO - Started process (PID=2085) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T10:09:55.408+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T10:09:55.420+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:09:55.419+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:09:58.121+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:09:58.267+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:09:58.267+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T10:09:58.408+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:09:58.399+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T10:09:58.535+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 3.157 seconds
+[2024-11-19T10:10:36.174+0000] {processor.py:186} INFO - Started process (PID=2158) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T10:10:36.177+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T10:10:36.180+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:10:36.179+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:10:37.634+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:10:37.741+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:10:37.740+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T10:10:37.890+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:10:37.890+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T10:10:37.996+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 1.844 seconds
+[2024-11-19T10:11:26.480+0000] {processor.py:186} INFO - Started process (PID=2185) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T10:11:26.484+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T10:11:26.494+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:11:26.493+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:11:30.379+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:11:30.512+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:11:30.512+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T10:11:30.634+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:11:30.633+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T10:11:30.727+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 4.269 seconds
+[2024-11-19T10:12:03.655+0000] {processor.py:186} INFO - Started process (PID=2251) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T10:12:03.692+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T10:12:03.695+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:12:03.694+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:12:04.182+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:12:04.204+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:12:04.204+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T10:12:04.233+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:12:04.233+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T10:12:04.324+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 0.677 seconds
+[2024-11-19T10:12:37.846+0000] {processor.py:186} INFO - Started process (PID=2305) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T10:12:37.848+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T10:12:37.857+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:12:37.856+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:12:38.301+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:12:38.395+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:12:38.394+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T10:12:38.482+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:12:38.480+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T10:12:38.628+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 0.802 seconds
+[2024-11-19T10:13:09.031+0000] {processor.py:186} INFO - Started process (PID=2371) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T10:13:09.033+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T10:13:09.043+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:13:09.042+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:13:09.399+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:13:09.469+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:13:09.468+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T10:13:09.567+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:13:09.567+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T10:13:09.660+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 0.653 seconds
+[2024-11-19T10:13:43.740+0000] {processor.py:186} INFO - Started process (PID=2422) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T10:13:43.751+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T10:13:43.754+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:13:43.754+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:13:44.413+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:13:44.501+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:13:44.500+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T10:13:46.306+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:13:46.305+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T10:13:46.404+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 2.682 seconds
+[2024-11-19T10:14:17.172+0000] {processor.py:186} INFO - Started process (PID=2488) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T10:14:17.175+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T10:14:17.177+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:14:17.177+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:14:17.753+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:14:17.830+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:14:17.829+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T10:14:17.919+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:14:17.919+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T10:14:18.482+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 1.332 seconds
+[2024-11-19T10:14:49.300+0000] {processor.py:186} INFO - Started process (PID=2554) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T10:14:49.318+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T10:14:49.321+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:14:49.321+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:14:49.681+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:14:49.709+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:14:49.708+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T10:14:49.796+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:14:49.796+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T10:14:50.085+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 0.793 seconds
+[2024-11-19T10:15:20.299+0000] {processor.py:186} INFO - Started process (PID=2620) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T10:15:20.301+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T10:15:20.305+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:15:20.304+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:15:20.692+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:15:20.762+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:15:20.761+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T10:15:20.903+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:15:20.903+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T10:15:22.109+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 1.826 seconds
+[2024-11-19T10:15:52.321+0000] {processor.py:186} INFO - Started process (PID=2686) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T10:15:52.324+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T10:15:52.333+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:15:52.329+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:15:52.828+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:15:52.909+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:15:52.909+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T10:15:53.035+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:15:53.034+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T10:15:53.701+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 1.398 seconds
+[2024-11-19T10:16:28.088+0000] {processor.py:186} INFO - Started process (PID=2742) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T10:16:28.091+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T10:16:28.094+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:16:28.093+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:16:32.101+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:16:32.382+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:16:32.382+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T10:16:32.625+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:16:32.624+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T10:16:32.772+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 4.708 seconds
+[2024-11-19T10:17:03.786+0000] {processor.py:186} INFO - Started process (PID=2808) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T10:17:03.793+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T10:17:03.802+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:17:03.801+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:17:04.589+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:17:04.649+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:17:04.646+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T10:17:04.743+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:17:04.743+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T10:17:04.805+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 1.040 seconds
+[2024-11-19T10:17:35.074+0000] {processor.py:186} INFO - Started process (PID=2874) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T10:17:35.080+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T10:17:35.083+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:17:35.082+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:17:37.187+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:17:37.241+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:17:37.240+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T10:17:37.291+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:17:37.291+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T10:17:37.419+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 2.366 seconds
+[2024-11-19T10:18:08.053+0000] {processor.py:186} INFO - Started process (PID=2941) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T10:18:08.058+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T10:18:08.069+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:18:08.068+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:18:08.907+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:18:08.983+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:18:08.982+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T10:18:09.082+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:18:09.081+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T10:18:09.189+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 1.169 seconds
+[2024-11-19T10:18:39.695+0000] {processor.py:186} INFO - Started process (PID=3007) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T10:18:39.726+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T10:18:39.729+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:18:39.728+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:18:40.227+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:18:40.363+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:18:40.363+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T10:18:40.429+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:18:40.429+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T10:18:40.548+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 0.861 seconds
+[2024-11-19T10:19:12.899+0000] {processor.py:186} INFO - Started process (PID=3066) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T10:19:12.947+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T10:19:12.949+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:19:12.949+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:19:13.570+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:19:13.689+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:19:13.689+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T10:19:13.771+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:19:13.771+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T10:19:13.927+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 1.036 seconds
+[2024-11-19T10:19:44.797+0000] {processor.py:186} INFO - Started process (PID=3132) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T10:19:44.803+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T10:19:44.807+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:19:44.806+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:19:45.285+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:19:45.515+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:19:45.514+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T10:19:45.752+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:19:45.751+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T10:19:45.874+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 1.101 seconds
+[2024-11-19T10:20:20.739+0000] {processor.py:186} INFO - Started process (PID=3187) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T10:20:20.744+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T10:20:20.752+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:20:20.750+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:20:21.039+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:20:21.097+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:20:21.097+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T10:20:21.135+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:20:21.135+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T10:20:21.503+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 0.786 seconds
+[2024-11-19T10:20:52.093+0000] {processor.py:186} INFO - Started process (PID=3254) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T10:20:52.095+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T10:20:52.104+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:20:52.101+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:20:52.393+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:20:52.469+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:20:52.468+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T10:20:52.565+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:20:52.564+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T10:20:52.618+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 0.541 seconds
+[2024-11-19T10:21:23.605+0000] {processor.py:186} INFO - Started process (PID=3314) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T10:21:23.607+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T10:21:23.610+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:21:23.609+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:21:23.874+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:21:23.929+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:21:23.929+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T10:21:24.015+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:21:24.014+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T10:21:24.090+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 0.498 seconds
+[2024-11-19T10:21:54.558+0000] {processor.py:186} INFO - Started process (PID=3380) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T10:21:54.560+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T10:21:54.567+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:21:54.566+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:21:54.831+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:21:54.881+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:21:54.881+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T10:21:54.968+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:21:54.967+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T10:21:55.017+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 0.478 seconds
+[2024-11-19T10:22:25.980+0000] {processor.py:186} INFO - Started process (PID=3446) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T10:22:25.983+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T10:22:25.988+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:22:25.987+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:22:26.371+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:22:26.451+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:22:26.450+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T10:22:26.793+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:22:26.792+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T10:22:26.995+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 1.037 seconds
+[2024-11-19T10:22:57.188+0000] {processor.py:186} INFO - Started process (PID=3512) to work on /opt/airflow/dags/extract_data.py
+[2024-11-19T10:22:57.191+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data.py for tasks to queue
+[2024-11-19T10:22:57.198+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:22:57.197+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:22:57.472+0000] {processor.py:925} INFO - DAG(s) 'export_data_to_csv' retrieved from /opt/airflow/dags/extract_data.py
+[2024-11-19T10:22:57.530+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:22:57.529+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-19T10:22:57.615+0000] {logging_mixin.py:190} INFO - [2024-11-19T10:22:57.614+0000] {dag.py:4180} INFO - Setting next_dagrun for export_data_to_csv to 2024-11-19 06:00:00+00:00, run_after=2024-11-20 06:00:00+00:00
+[2024-11-19T10:22:57.666+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data.py took 0.497 seconds
