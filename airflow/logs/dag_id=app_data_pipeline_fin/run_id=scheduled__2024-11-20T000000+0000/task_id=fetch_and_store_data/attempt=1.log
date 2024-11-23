@@ -1,0 +1,44 @@
+[2024-11-20T08:11:14.655+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-20T08:11:14.712+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: app_data_pipeline_fin.fetch_and_store_data scheduled__2024-11-20T00:00:00+00:00 [queued]>
+[2024-11-20T08:11:14.733+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: app_data_pipeline_fin.fetch_and_store_data scheduled__2024-11-20T00:00:00+00:00 [queued]>
+[2024-11-20T08:11:14.734+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-11-20T08:11:14.788+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): fetch_and_store_data> on 2024-11-20 00:00:00+00:00
+[2024-11-20T08:11:14.849+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'app_data_pipeline_fin', 'fetch_and_store_data', 'scheduled__2024-11-20T00:00:00+00:00', '--job-id', '778', '--raw', '--subdir', 'DAGS_FOLDER/insert_data_fin.py', '--cfg-path', '/tmp/tmpsywrr3hf']
+[2024-11-20T08:11:14.855+0000] {standard_task_runner.py:105} INFO - Job 778: Subtask fetch_and_store_data
+[2024-11-20T08:11:14.842+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=82) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-11-20T08:11:14.856+0000] {standard_task_runner.py:72} INFO - Started process 96 to run task
+[2024-11-20T08:11:15.031+0000] {task_command.py:467} INFO - Running <TaskInstance: app_data_pipeline_fin.fetch_and_store_data scheduled__2024-11-20T00:00:00+00:00 [running]> on host e6bda0a190de
+[2024-11-20T08:11:15.448+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='app_data_pipeline_fin' AIRFLOW_CTX_TASK_ID='fetch_and_store_data' AIRFLOW_CTX_EXECUTION_DATE='2024-11-20T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-20T00:00:00+00:00'
+[2024-11-20T08:11:15.453+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-11-20T08:11:15.454+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-11-20T08:11:15.455+0000] {logging_mixin.py:190} INFO - Current task name:fetch_and_store_data state:running start_date:2024-11-20 08:11:14.713717+00:00
+[2024-11-20T08:11:15.457+0000] {logging_mixin.py:190} INFO - Dag name:app_data_pipeline_fin and current dag run status:running
+[2024-11-20T08:11:15.467+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-20T08:11:23.092+0000] {logging_mixin.py:190} INFO - 2 documents insérés dans MongoDB pour GOOGL.
+[2024-11-20T08:11:23.531+0000] {logging_mixin.py:190} INFO - 2 documents insérés dans MongoDB pour AMZN.
+[2024-11-20T08:11:23.952+0000] {logging_mixin.py:190} INFO - 2 documents insérés dans MongoDB pour AAPL.
+[2024-11-20T08:11:24.436+0000] {logging_mixin.py:190} INFO - 2 documents insérés dans MongoDB pour MSFT.
+[2024-11-20T08:11:24.719+0000] {logging_mixin.py:190} INFO - 2 documents insérés dans MongoDB pour META.
+[2024-11-20T08:11:25.439+0000] {logging_mixin.py:190} INFO - 2 documents insérés dans MongoDB pour NVDA.
+[2024-11-20T08:11:25.869+0000] {logging_mixin.py:190} INFO - 2 documents insérés dans MongoDB pour TSLA.
+[2024-11-20T08:11:26.784+0000] {logging_mixin.py:190} INFO - 2 documents insérés dans MongoDB pour INTC.
+[2024-11-20T08:11:27.046+0000] {logging_mixin.py:190} INFO - 2 documents insérés dans MongoDB pour ORCL.
+[2024-11-20T08:11:27.477+0000] {logging_mixin.py:190} INFO - 2 documents insérés dans MongoDB pour ADBE.
+[2024-11-20T08:11:29.356+0000] {logging_mixin.py:190} INFO - 2 documents insérés dans MongoDB pour IBM.
+[2024-11-20T08:11:29.835+0000] {logging_mixin.py:190} INFO - 2 documents insérés dans MongoDB pour CRM.
+[2024-11-20T08:11:33.198+0000] {logging_mixin.py:190} INFO - 2 documents insérés dans MongoDB pour NFLX.
+[2024-11-20T08:11:33.185+0000] {job.py:229} INFO - Heartbeat recovered after 12.66 seconds
+[2024-11-20T08:11:34.730+0000] {logging_mixin.py:190} INFO - 2 documents insérés dans MongoDB pour QCOM.
+[2024-11-20T08:11:34.851+0000] {logging_mixin.py:190} INFO - Connexion à MongoDB fermée.
+[2024-11-20T08:11:34.893+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-20T08:11:35.001+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-20T08:11:35.026+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=app_data_pipeline_fin, task_id=fetch_and_store_data, run_id=scheduled__2024-11-20T00:00:00+00:00, execution_date=20241120T000000, start_date=20241120T081114, end_date=20241120T081135
+[2024-11-20T08:11:35.330+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-11-20T08:11:35.334+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-11-20T08:11:35.349+0000] {logging_mixin.py:190} INFO - Dag name:app_data_pipeline_fin queued_at:2024-11-20 08:09:52.396157+00:00
+[2024-11-20T08:11:35.354+0000] {logging_mixin.py:190} INFO - Task hostname:e6bda0a190de operator:PythonOperator
+[2024-11-20T08:11:35.667+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-20T08:11:35.944+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-20T08:11:35.968+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

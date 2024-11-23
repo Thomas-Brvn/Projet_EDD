@@ -16,22 +16,23 @@ Ce projet est destiné à :
 ## 🗺️ Architecture du Projet 
 ```bash 
 .
-├── data
-│   ├── raw_data
-│   └── processed_data
-├── scripts
-│   ├── api_extraction.py
-│   ├── data_cleaning.py
-│   ├── data_loading.py
-│   └── pipeline_scheduler.py
-├── docker-compose.yml
 ├── airflow
+│   ├── config
 │   ├── dags
-│   ├── docker-compose.yml
-│   ├── requirements.txt
-│   └── script
-├── notebooks
-│   └── exploratory_analysis.ipynb
+│   │   ├── extract_data.py
+│   │   ├── insert_data_fin.py
+│   │   └── insert_data_news.py
+│   ├── docker-compose.yaml
+│   ├── Dockerfile
+│   ├── logs
+│   └── plugins
+├── data
+│   ├── correspondances.csv
+│   ├── data_finance.csv
+│   └── data_news.csv
+├── ENV
+├── PowerBI
+│   └── powerbiFinanceNews.pbix
 ├── README.md
 └── requirements.txt
 ```
