@@ -102,7 +102,7 @@ Ce projet est destiné à :
    ```
 
 3. **Configurer les variables d'environnement : :**
-   Créez un fichier .env et ajoutez les clés API pour accéder aux services de données de marché et                d'actualités.
+   Créez un fichier .env et ajoutez les clés API pour accéder aux services de données de marché et d'actualités.
    ```bash
    API_KEY_news=***********
    API_KEY_fin = **********
@@ -111,7 +111,7 @@ Ce projet est destiné à :
    MONGO_DBNAME=*********
    MONGO_URI=**********
    ```
-   Vous trouverez les liens des API dans les scripts insert_data_news.py et insert_data_fin.py, situés dans le dossier Projet_EDD/airflow/dags/...
+   Vous trouverez les liens des API dans les scripts "insert_data_news.py" et "insert_data_fin.py", situés dans le dossier "Projet_EDD/airflow/dags/..."
 Pour utiliser ces API, vous devez définir une liste des entreprises que vous souhaitez analyser. Voici la liste des entreprises utilisées dans le cadre de ce projet. Vous pouvez la modifier selon vos besoins en y ajoutant ou remplaçant des entreprises.
    ```bash
    # API News
