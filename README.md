@@ -104,9 +104,12 @@ Ce projet est destiné à :
 3. **Configurer les variables d'environnement : :**
    Créez un fichier .env et ajoutez les clés API pour accéder aux services de données de marché et                d'actualités.
    ```bash
-   python -m venv env
-   source env/bin/activate
-   pip install -r requirements.txt
+   API_KEY_news=***********
+   API_KEY_fin = **********
+   MONGO_USERNAME=**********
+   MONGO_PASSWORD=***********
+   MONGO_DBNAME=*********
+   MONGO_URI=**********
    ```
 
    ## ⛓️ Pipeline de Transformation des Données
