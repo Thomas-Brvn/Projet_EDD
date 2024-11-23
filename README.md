@@ -111,6 +111,22 @@ Ce projet est destiné à :
    MONGO_DBNAME=*********
    MONGO_URI=**********
    ```
+   Vous trouverez les liens des API dans les scripts insert_data_news.py et insert_data_fin.py, situés dans le dossier Projet_EDD/airflow/dags/...
+Pour utiliser ces API, vous devez définir une liste des entreprises que vous souhaitez analyser. Voici la liste des entreprises utilisées dans le cadre de ce projet. Vous pouvez la modifier selon vos besoins en y ajoutant ou remplaçant des entreprises.
+   ```bash
+   # API News
+   entreprises = [
+            "Alphabet", "Amazon", "Apple", "Microsoft", "Meta", "NVIDIA", "Tesla",
+            "Samsung", "Intel", "Oracle", "Adobe", "IBM", "Salesforce", "Netflix", "Qualcomm"
+   ]
+   api_url = f"https://newsapi.org/v2/everything?q={entreprise}&apiKey={api_key}"
+   # API Finance
+   symbols = [
+        "GOOGL", "AMZN", "AAPL", "MSFT", "META", "NVDA", "TSLA",
+        "005930.KQ", "INTC", "ORCL", "ADBE", "IBM", "CRM", "NFLX", "QCOM"
+    ]
+   api_url = f'https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol={symbol}&apikey={api_key}&outputsize=compact'
+   ```
 
    ## ⛓️ Pipeline de Transformation des Données
 
