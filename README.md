@@ -139,6 +139,10 @@ Pour exécuter Airflow, utilisez les commandes suivantes :
 docker-compose up airflow-init
 docker-compose up
 ```
+Pour vérifier le bon fonctionnement d'Airflow, utilisez la commande suivante :
+```bash
+docker-compose ps
+```
 
 ### Conclusions et Perspectives
 Ce projet permet de visualiser et d'exploiter les données financières et d'actualité de manière intégrée. Des améliorations futures pourraient inclure l'intégration de modèles de machine learning pour prédire les impacts des actualités sur les actions et un enrichissement des sources de données pour des analyses plus poussées.
@@ -147,7 +151,7 @@ Ce projet permet de visualiser et d'exploiter les données financières et d'act
 Ce projet est sous licence MIT.
 
 ### 🙌 Contributeurs
-Alphonse Marçay : (@amarcay) - Etudiant Data  -**alphonsemarcay@gmail.com**
+Alphonse Marçay : (@amarcay) - Etudiant Data  -**marcay.alphonse@gmail.com**
 
 Thomas Bourvon  : (@ThomasBrvn) - Etudiant Data  -**thomas.bourvon0@gmail.com**
 
