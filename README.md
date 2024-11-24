@@ -42,8 +42,7 @@ Ce projet est destiné à :
 
 ## 🔀 Workflow et Schéma d'Architecture 
 
-
-![Capture d’écran 2024-11-13 à 19 00 30](https://github.com/user-attachments/assets/3092234e-760f-4469-9cfd-fccaf05bf223)
+![Capture d’écran 2024-11-18 à 12 10 27](https://github.com/user-attachments/assets/a0fbd906-aca0-4f1f-9c14-bb8c5705387a)
 
 
 
