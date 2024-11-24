@@ -144,6 +144,11 @@ Pour vérifier le bon fonctionnement d'Airflow, utilisez la commande suivante :
 docker-compose ps
 ```
 
+## Visualisation des données avec Power BI
+Les données importées et visualisées dans Power BI pour une analyse approfondie. Voici un aperçu de certaines visualisations créées pour explorer les actions des entreprises et leurs news.
+![Capture d'écran 2024-11-24 172601](https://github.com/user-attachments/assets/80bdbaf9-e31f-463a-adeb-29e7b6bacb99)
+
+
 ### Conclusions et Perspectives
 Ce projet permet de visualiser et d'exploiter les données financières et d'actualité de manière intégrée. Des améliorations futures pourraient inclure l'intégration de modèles de machine learning pour prédire les impacts des actualités sur les actions et un enrichissement des sources de données pour des analyses plus poussées.
 
